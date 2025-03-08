@@ -2,9 +2,9 @@ import { Boot } from "./scenes/Boot";
 import { GameOver } from "./scenes/GameOver";
 import { MainMenu } from "./scenes/MainMenu";
 import { Preloader } from "./scenes/Preloader";
-import { BezierDemoScene } from "./scenes/BezierDemoScene.ts";
-import { FortuneTellerScene } from "./scenes/FortuneTellerScene";
-import { SpaceShooterGame } from "./scenes/SpaceShooterGame";
+import { BezierDemoScene } from "./scenes/claude/BezierDemoScene.ts";
+import { FortuneTellerScene } from "./scenes/claude/FortuneTellerScene.ts";
+import { SpaceShooterGame } from "./scenes/claude/SpaceShooterGame.ts";
 
 import { Game, Types } from "phaser";
 
