@@ -2,9 +2,10 @@ import { Boot } from "./scenes/Boot";
 import { GameOver } from "./scenes/GameOver";
 import { MainMenu } from "./scenes/MainMenu";
 import { Preloader } from "./scenes/Preloader";
-import { BezierDemoScene } from "./scenes/claude/BezierDemoScene.ts";
-import { FortuneTellerScene } from "./scenes/claude/FortuneTellerScene.ts";
-import { SpaceShooterGame } from "./scenes/claude/SpaceShooterGame.ts";
+import { MultipleBouncingBallsDemo } from "./scenes/chatgpt/MultipleBouncingBallsDemo";
+import { BezierDemoScene } from "./scenes/claude/BezierDemoScene";
+import { FortuneTellerScene } from "./scenes/claude/FortuneTellerScene";
+import { SpaceShooterGame } from "./scenes/claude/SpaceShooterGame";
 
 import { Game, Types } from "phaser";
 
@@ -33,6 +34,7 @@ const config: Types.Core.GameConfig = {
     MainMenu,
     GameOver,
     // -- demo scenes --
+    MultipleBouncingBallsDemo,
     BezierDemoScene,
     FortuneTellerScene,
     SpaceShooterGame,
