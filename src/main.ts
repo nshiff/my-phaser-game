@@ -2,6 +2,7 @@ import { Boot } from "./scenes/Boot";
 import { GameOver } from "./scenes/GameOver";
 import { MainMenu } from "./scenes/MainMenu";
 import { Preloader } from "./scenes/Preloader";
+import { MathSpirographDemo } from "./scenes/chatgpt/MathSpirographDemo";
 import { MultipleBouncingBallsDemo } from "./scenes/chatgpt/MultipleBouncingBallsDemo";
 import { BezierDemoScene } from "./scenes/claude/BezierDemoScene";
 import { FortuneTellerScene } from "./scenes/claude/FortuneTellerScene";
@@ -34,6 +35,7 @@ const config: Types.Core.GameConfig = {
     MainMenu,
     GameOver,
     // -- demo scenes --
+    MathSpirographDemo,
     MultipleBouncingBallsDemo,
     BezierDemoScene,
     FortuneTellerScene,
