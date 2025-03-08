@@ -35,10 +35,10 @@ const config: Types.Core.GameConfig = {
     MainMenu,
     GameOver,
     // -- demo scenes --
-    MathSpirographDemo,
-    MultipleBouncingBallsDemo,
     BezierDemoScene,
     FortuneTellerScene,
+    MathSpirographDemo,
+    MultipleBouncingBallsDemo,
     SpaceShooterGame,
   ],
 };
