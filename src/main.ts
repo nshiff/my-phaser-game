@@ -4,6 +4,7 @@ import { MainMenu } from "./scenes/MainMenu";
 import { Preloader } from "./scenes/Preloader";
 import { BezierDemoScene } from "./scenes/BezierDemoScene.ts";
 import { FortuneTellerScene } from "./scenes/FortuneTellerScene";
+import { SpaceShooterGame } from "./scenes/SpaceShooterGame";
 
 import { Game, Types } from "phaser";
 
@@ -15,6 +16,13 @@ const config: Types.Core.GameConfig = {
   height: 768,
   parent: "game-container",
   backgroundColor: "#028af8",
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: { x: 0, y: 0 },
+      debug: false,
+    },
+  },
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
@@ -27,6 +35,7 @@ const config: Types.Core.GameConfig = {
     // -- demo scenes --
     BezierDemoScene,
     FortuneTellerScene,
+    SpaceShooterGame,
   ],
 };
 
